@@ -643,14 +643,15 @@
     `(cider-result-overlay-face ((t (:background unspecified))))
 
     ;; > Org
-    `(org-level-1 ((,class (:foreground ,nord7 :weight extra-bold))))
-    `(org-level-2 ((,class (:foreground ,nord8 :weight bold))))
-    `(org-level-3 ((,class (:foreground ,nord9 :weight semi-bold))))
-    `(org-level-4 ((,class (:foreground ,nord10 :weight normal))))
-    `(org-level-5 ((,class (:inherit org-level-4))))
-    `(org-level-6 ((,class (:inherit org-level-4))))
-    `(org-level-7 ((,class (:inherit org-level-4))))
-    `(org-level-8 ((,class (:inherit org-level-4))))
+    `(org-level-1 ((,class (:foreground ,nord7 :weight extra-bold :height 1.3))))
+    `(org-level-2 ((,class (:foreground ,nord9 :weight bold :height 1.2))))
+    ;`(org-level-3 ((,class (:foreground ,nord14 :weight semi-bold :height 1.1))))
+    `(org-level-3 ((,class (:foreground ,nord14 :weight normal :height 1.0))))
+    `(org-level-4 ((,class (:foreground ,nord12 :weight normal))))
+    `(org-level-5 ((,class (:foreground ,nord7 ))))
+    `(org-level-6 ((,class (:foreground ,nord9 ))))
+    `(org-level-7 ((,class (:foreground ,nord14 ))))
+    `(org-level-8 ((,class (:foreground ,nord12 ))))
     `(org-agenda-structure ((,class (:foreground ,nord9))))
     `(org-agenda-date ((,class (:foreground ,nord8 :underline nil))))
     `(org-agenda-done ((,class (:foreground ,nord14))))
@@ -698,6 +699,7 @@
     `(org-agenda-date-today ((,class (:foreground ,nord8 :weight bold))))
     `(org-agenda-done ((,class (:foreground ,nord14))))
     `(org-verbatim ((,class (:foreground ,nord7))))
+    `(org-headline-done ((,class (:foreground ,nord13))))
 
     ;; > ivy-mode
     `(ivy-current-match ((,class (:inherit region))))
