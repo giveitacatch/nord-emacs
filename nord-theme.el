@@ -699,6 +699,14 @@
     `(org-agenda-date-today ((,class (:foreground ,nord8 :weight bold))))
     `(org-agenda-done ((,class (:foreground ,nord14))))
     `(org-verbatim ((,class (:foreground ,nord7))))
+    `(org-habit-alert-face ((,class (:background ,"#c76d52"))))
+    `(org-habit-alert-future-face ((,class (:background ,"#c76d52"))))
+    `(org-habit-clear-face ((,class (:background ,nord9))))
+    `(org-habit-clear-future-face ((,class (:background ,nord9))))
+    `(org-habit-overdue-face ((,class (:background ,"#913b44"))))
+    `(org-habit-overdue-future-face ((,class (:background ,"#6d2c33"))))
+    `(org-habit-ready-face ((,class (:background ,"#648349"))))
+    `(org-habit-ready-future-face ((,class (:background ,"#648349"))))
     `(org-headline-done ((,class (:foreground ,nord13))))
 
     ;; > ivy-mode
